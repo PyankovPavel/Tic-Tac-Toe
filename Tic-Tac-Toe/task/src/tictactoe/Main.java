@@ -193,10 +193,10 @@ public class Main {
         }
         while (true) {
             xMoves(array);
-            if (isFinished == false)
+            if (!isFinished)
                 break;
             oMoves(array);
-            if (isFinished == false)
+            if (!isFinished)
                 break;
         }
     }
